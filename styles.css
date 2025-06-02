@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Container for all UI elements */
+#cf-hints-container {
+  border: 2px solid #4CAF50;
+  border-radius: 6px;
+  padding: 12px;
+  margin-top: 16px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+}
+
+/* Title line */
+#cf-hints-container h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Row of buttons */
+#cf-hints-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+/* Button style  */
+.cf-hint-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Content  */
+.cf-hint-content {
+  display: none;
+  margin-top: 8px;
+  padding: 8px;
+  border-left: 3px solid #4CAF50;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
