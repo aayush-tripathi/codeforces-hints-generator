@@ -17,31 +17,6 @@ A browser extension that enhances any Codeforces problem page by injecting:
 
 All generated content is produced via Google Gemini (Gemini 1.5 Flash) using the official problem statement and editorial. This README explains the idea, project structure, setup, and usage in detail.
 
----
-
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Key Concepts](#key-concepts)
-3. [Project Structure](#project-structure)
-4. [Installation and Setup](#installation-and-setup)
-
-   * [Prerequisites](#prerequisites)
-   * [Cloning the Repository](#cloning-the-repository)
-   * [API Key Management](#api-key-management)
-   * [Building the Extension](#building-the-extension)
-5. [Manifest and Permissions](#manifest-and-permissions)
-6. [Content Script Workflow](#content-script-workflow)
-
-   * [Problem Detection](#problem-detection)
-   * [Editorial Fetching](#editorial-fetching)
-   * [Gemini Prompting](#gemini-prompting)
-   * [UI Injection](#ui-injection)
-7. [Styling](#styling)
-8. [Loading the Extension](#loading-the-extension)
-9. [Troubleshooting](#troubleshooting)
-10. [Extending or Customizing](#extending-or-customizing)
-11. [License](#license)
 
 ---
 
